@@ -17,6 +17,7 @@ This extensions makes it easier for website owners and agencies to have the site
 ## Requirements
 
 - TYPO3 CMS 9 LTS / 8
+- **COMPOSER** currently required, at least for the randomization part
 
 ## Drawbacks
 
