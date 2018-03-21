@@ -1,11 +1,11 @@
 <?php
 
-//$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Core\Database\Query\Restriction\DefaultRestrictionContainer::class] = array(
-//    'className' => \GeorgRinger\Gdpr\Xclass\DefaultRestrictionContainer::class
-//);
-//$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Core\Database\Query\Restriction\FrontendRestrictionContainer::class] = array(
-//    'className' => \GeorgRinger\Gdpr\Xclass\FrontendRestrictionContainer::class
-//);
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Core\Database\Query\Restriction\DefaultRestrictionContainer::class] = array(
+    'className' => \GeorgRinger\Gdpr\Xclass\DefaultRestrictionContainer::class
+);
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Core\Database\Query\Restriction\FrontendRestrictionContainer::class] = array(
+    'className' => \GeorgRinger\Gdpr\Xclass\FrontendRestrictionContainer::class
+);
 
 
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Core\Authentication\BackendUserAuthentication::class] = array(
